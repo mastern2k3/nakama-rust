@@ -1,0 +1,10 @@
+[package]
+name = "nakama-rust"
+version = "0.0.1"
+authors = ["nitzan <nitzan@halo-digital.com>"]
+edition = "2018"
+
+[dependencies]
+
+[build-dependencies]
+protoc-rust-grpc = "0.6.1"
