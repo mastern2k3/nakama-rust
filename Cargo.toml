@@ -1,10 +1,15 @@
 [package]
-name = "nakama-rust"
+name = "nakama"
 version = "0.0.1"
 authors = ["nitzan <nitzan@halo-digital.com>"]
 edition = "2018"
 
 [dependencies]
+# protobuf = { version = "2", features = ["with-bytes"] }
+grpc            = "0.6.1"
+protobuf        = "~2"
+futures         = "~0.1"
+futures-cpupool = "~0.1"
 
 [build-dependencies]
 protoc-rust-grpc = "0.6.1"
