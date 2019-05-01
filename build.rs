@@ -8,6 +8,7 @@ fn main() {
             "proto/google/protobuf/empty.proto",
             "proto/github.com/heroiclabs/nakama/api/api.proto",
             "proto/github.com/heroiclabs/nakama/apigrpc/apigrpc.proto",
+            "proto/github.com/heroiclabs/nakama/rtapi/realtime.proto",
         ],
         rust_protobuf: true,
         ..Default::default()

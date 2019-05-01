@@ -8,3 +8,4 @@ mod empty;
 pub mod api;
 pub mod apigrpc;
 pub mod apigrpc_grpc;
+pub mod realtime;
